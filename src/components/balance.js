@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Card } from "react-bootstrap";
-import { store } from "./store";
+import { store } from "../redux/store";
 
 export const ContractBalance = () => {
   const { state } = useContext(store);

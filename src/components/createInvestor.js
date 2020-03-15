@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { store } from "./store";
+import { store } from "../redux/store";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Button, Card, } from "react-bootstrap";

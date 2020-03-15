@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Button, Card } from "react-bootstrap";
-import { store } from "./store";
+import { store } from "../redux/store";
 
 export const DeploySmartContract = () => {
   const [hide, setHide] = useState(false);

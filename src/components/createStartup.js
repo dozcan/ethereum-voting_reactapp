@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { store } from "./store";
+import { store } from "../redux/store";
 import Modal from "react-responsive-modal";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
